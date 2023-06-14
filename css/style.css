@@ -1,0 +1,260 @@
+*{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+/*Menu*/
+header {
+  height: 85px;
+  background-color: rgb(67, 141, 44);
+}
+
+
+.logo img {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+
+
+.logo {
+  float: left;
+}
+
+
+.menu {
+  float: right;
+}
+
+
+.menu ul {
+  margin-top: 30px;
+}
+
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
+.menu a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #13c288;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  background-color: #ffffff;
+}
+
+.menu a:hover {
+  color: #f6b63b;
+  font-weight: normal;
+}
+
+/*Banner*/
+
+.banner{
+  min-height: 600px;
+  background-image: url('../img/banner2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+/* SOBRE */
+
+.sobre p{
+  font-size: large;
+  margin: 60px;
+}
+
+/*Produtos*/
+.titulo {
+  color: rgb(67, 141, 44);
+  text-align: center;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+
+.blocos {
+  margin-top: 30px;
+}
+
+
+.bloco-individual {
+  display: inline-grid;
+  width: 30%;
+  padding: 20px;
+}
+
+
+.bloco-individual img {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10%;
+}
+
+
+.bloco-individual h3 {
+  text-align: center;
+  color: rgb(67, 141, 44);
+  font-size: 20px;
+}
+
+
+.bloco-individual p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.catalogo h1{
+  text-align: center;
+  color:rgb(67, 141, 44);
+  margin-bottom: 10px;
+}
+
+.ordem{
+  display: flex;
+  background-color: rgb(67, 141, 44);
+  justify-content: center;
+}
+
+.ordem p{
+  flex-direction: row;
+  padding: 19px;
+  font-weight: bold;
+}
+
+.ordem a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.ordem a:hover{
+  background-color: #13c288;
+  padding: 12px;
+  transition: 0.4s ease-in-out;
+  border-radius: 40px;
+}
+/*contato*/
+
+
+.contato{
+  height: 600px;
+  padding: 30px;
+  background-color: #13c288;
+}
+
+
+.formulario form {
+  margin-top: 130px;
+}
+
+
+.formulario {
+  width: 100%;
+}
+
+
+input {
+  margin-top: 12px;
+}
+
+
+.formulario input[type='text'],
+.formulario input[type='email'] {
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(67, 141, 44);
+}
+
+
+.formulario textarea{
+  width: 100%;
+  height: 150px;
+  padding-left: 15px;
+  font-size: 15px;
+  padding-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(67, 141, 44);
+  margin-top: 12PX;
+}
+
+
+.botao{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botao input[type='submit'] {
+  height: 50px;
+  width: 160px;
+  /*caso queira fazer um quadrado, dá pra fazer apenas padding. Porém isto significa que tudo terá a mesma proporção, ou seja, não vira um retangulo*/
+  background-color: rgb(67, 141, 44);
+  color: antiquewhite;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: rgb(67, 141, 44);
+}
+
+.botao input:hover{
+  background-color: #f6b63b;
+}
+
+input:focus,
+textarea:focus{
+  outline-color: #f6b63b;
+
+}
+
+/*rodapé*/
+.rodape{
+  background: rgb(67, 141, 44);
+  text-align: center;
+}
+
+#linktopo{
+  text-decoration: none;
+  color: #13c288;
+  font-size: 24px;
+  background-color: rgb(67, 141, 44);
+  padding: 10px;
+  box-shadow: 3px 3px 10px #333;
+  right: 30px;
+  position: fixed;
+  bottom: 50px;
+  border-radius: 100px;
+  }
+  
